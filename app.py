@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 
-st.set_page_config(page_title="KMO Study Pro", layout="centered")
+st.set_page_config(page_title="ABowl Study Pro", layout="centered")
 
 # --- STICKY HEADER & CARDS CSS ---
 st.markdown("""
@@ -60,7 +60,7 @@ search = st.sidebar.text_input("Search")
 # --- MAIN INTERACTION AREA (Buttons at the TOP) ---
 # We use a container to keep our buttons in a static location
 with st.container():
-    st.title("🏆 Academic Bowl Student Practice Portal")
+    st.title("🏆 Student Practice Portal")
     
     col1, col2 = st.columns(2)
     
