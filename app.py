@@ -60,7 +60,7 @@ search = st.sidebar.text_input("Search")
 # --- MAIN INTERACTION AREA (Buttons at the TOP) ---
 # We use a container to keep our buttons in a static location
 with st.container():
-    st.title("🏆 KMO Student Portal")
+    st.title("🏆 Academic Bowl Student Practice Portal")
     
     col1, col2 = st.columns(2)
     
